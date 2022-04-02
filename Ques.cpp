@@ -214,7 +214,7 @@ void EmployeeManagement<T>::head()
 					return;
 			default:cout<<"\t\t\t\tInvalid Choice!!";
 		}
-		getch();
+		fflush(stdin); getchar();
 	}
 	while(true);
 }
@@ -392,7 +392,7 @@ void DepartmentManagement<T>::head()
 					return;
 			default:cout<<"\t\t\t\tInvalid Choice!!";
 		}
-		getch();
+		fflush(stdin); getchar();
 	}
 	while(true);
 }
@@ -427,7 +427,7 @@ void head()
 					return;
 			default:cout<<"\t\t\t\tInvalid Choice!!";
 		}
-		getch();
+		fflush(stdin); getchar();
 	}
 	while(true);
 }
